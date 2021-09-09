@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+    <div class="canvas" id="canvas">
+      <!-- container contain login form -->
+      <div class="images box" id="images">
+        <img src="icons/NYC_road.jpg" alt="">
+      </div>
+        <div class="container box" id="container">
+            <div class="user">
+                <img src="icons/user-regular.svg" alt="">
+                <span>Login</span>
+            </div>
+            <form action="#">
+                <div class="user-detail">
+                  <img src="icons/user-solid.svg" alt="usericon">
+                  <input type="text" minlength="5" maxlength="10" placeholder="user name" required>
+                </div>
+                <div class="user-detail">
+                  <img src="icons/lock-solid.svg" alt="passwordicon">
+                  <input type="password" minlength="10" maxlength="15" placeholder="Password" required>
+                </div>
+                <div class="user-detail check" id="remember">
+                    <input type="checkbox" id="rememberme" name="rememberme">
+                    <label for="rememberme">Remember Me</label>
+                </div>
+                <div class="user-detail button">
+                  <input type="submit" value="Login">
+                </div>
+                <div class="user-details forgot" id="forgot">
+
+                  <a href="#"> <span>
+                  Forgot username
+                </span>
+                </a>
+                <br>
+                <a href="#"> <span>
+                  Forgot Password
+                </span>
+                </a>
+                </div>
+              </form>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
